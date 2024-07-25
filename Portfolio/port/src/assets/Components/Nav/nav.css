@@ -1,0 +1,36 @@
+nav{
+    background: gray;
+    width: 100%;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    transform:  none;
+    bottom: 5rem;
+    justify-content: center;
+    gap:0.8rem;
+ 
+}
+
+nav a{
+
+    background: transparent;
+    padding:0.9rem;
+    border-radius:  50%;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+nav a :hover{
+ background: rgba(255,0,0,0.7) ;
+ 
+
+} 
+
+nav a.active{
+
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-size: 2rem;
+    
+}
+
