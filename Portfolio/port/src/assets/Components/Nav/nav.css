@@ -4,9 +4,11 @@ nav{
     display: flex;
     padding: 0.7rem 1.7rem;
     z-index: 2;
-    position: top;
+    position: absolute;
+    position: fixed;
+    top: 0%;
     transform:  none;
-    bottom: 5rem;
+
     justify-content: center;
     gap:0.8rem;
  

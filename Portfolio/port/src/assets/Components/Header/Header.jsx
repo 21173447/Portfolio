@@ -3,6 +3,7 @@ import './header.css'
 import CTAS from './CTAS'
 import ME from '../../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
+import '../Nav/Nav'
 
 
 const Header = () => {
