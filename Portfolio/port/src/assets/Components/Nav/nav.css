@@ -4,7 +4,7 @@ nav{
     display: flex;
     padding: 0.7rem 1.7rem;
     z-index: 2;
-    position: fixed;
+    position: top;
     transform:  none;
     bottom: 5rem;
     justify-content: center;
