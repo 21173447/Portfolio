@@ -12,9 +12,15 @@ import IMG6 from '../../../assets/science.png';
 
 const Portfolio = () => {
   return (
+
+
+
+
+    
     <section id='portfolio'>
       <h5>What i learned</h5>
       <h2>Languages</h2>
+
 
       <div className="container portfolio__container">
         <article className='portfolio__item'>
@@ -64,11 +70,11 @@ const Portfolio = () => {
           
         </article>
 
+    
+
+ 
 
 
-
-       
-        
       </div>
     </section>
   );

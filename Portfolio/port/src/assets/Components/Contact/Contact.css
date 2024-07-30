@@ -1,11 +1,10 @@
 
 
-
 .container.contact__container {
     width: 58%;
     display: grid;
     gap: 12%;
-
+    height: 10vh;
 }
 
 .contact__options {

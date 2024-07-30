@@ -9,8 +9,6 @@
 }
 
 
-
-
 .about__me {
     width: 100%;
     aspect-ratio: 1/1; 
@@ -25,6 +23,7 @@
     max-width: 100%; 
     height: auto;
     border-radius: 1rem; 
+    width:80rem;
     transform: rotate(10deg);
      transition: var(--transition);
 }

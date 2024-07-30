@@ -5,6 +5,7 @@ import Abt from './assets/Components/Abou/Abt'
 import Portfolio from './assets/Components/Portfolio/Portfolio'
 import Contacts from './assets/Components/Contact/Contacts'
 import Footer from './assets/Components/Footer/Footer'
+import Project from './assets/Components/Projects/Project'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
        <Header/>
        <Nav/>
        <Abt/>
+       <Project/>
        <Portfolio/>
        <Contacts/>
        <Footer/>

@@ -20,7 +20,10 @@ header {
     padding-bottom: 10%;
 }
 span{
-margin-left:16rem;
+    margin-right: 10rem;
+    margin-left: -2rem;
+
+
 
 }
 .text-light{
@@ -34,7 +37,7 @@ margin-left:16rem;
     top: -5rem;
     display: flex;
     gap: 1.3rem;
-    padding: 907px;    
+    padding: 800px;    
 }
 /*====================Socals==============*/
 .header__socials {
@@ -79,8 +82,10 @@ margin-left:16rem;
 
 .pic {
 
-    width: 22rem;
-    height: 35rem;
+    width: 18rem;
+    height:56rem;
+    overflow: hidden;
+    margin-left: 3rem;
      border-radius: 12rem 12rem 0 0;
 }
 
