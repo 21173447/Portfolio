@@ -26,7 +26,7 @@ const Header = () => {
 
 
        
-        <a href="#conatct" className='scroll_down'>Scroll Down</a>
+        <a href="#Conatcts" className='scroll_down'>Scroll Down</a>
 
       </div>
 

@@ -1,5 +1,5 @@
 nav{
-  background-color:darkslategray;
+    background: rgba(0,0,0,0.3) ;
     width: 100%;
     display: flex;
     padding: 0.7rem 1.7rem;
@@ -9,6 +9,8 @@ nav{
     justify-content: center;
     transform:none;
     gap:0.9rem;
+    backdrop-filter: blur(50px);
+
 
     
  
@@ -28,7 +30,7 @@ nav a{
 
 
 nav a.active{
-
+  
     background:darkgray;
     color: var(--color-white);
     font-size: 1rem;

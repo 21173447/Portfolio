@@ -21,9 +21,9 @@
 
 /* Card image  css*/
 .portfolio__item-image {
-   object-fit: cover;
-   justify-content: center;
-    
+margin-left: 8.5rem;
+
+
 }
 
 .portfolio__item-image img {
