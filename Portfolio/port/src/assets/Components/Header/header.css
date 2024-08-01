@@ -1,14 +1,14 @@
 header {
   height: 100vh;
-  padding-top: 4rem;
   overflow: hidden;
   background: url(../../pexels-marek-piwnicki-3907296-13922576.jpg);
   background-size: cover;
-  background-position: center;
+
 }
 
 .header__container {
   display: flex;
+  padding-top: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ span {
   top: -5rem;
   display: flex;
   gap: 1.3rem;
-  padding: 840px;
+  padding: 900px;
 }
 /*====================Socals==============*/
 .header__socials {
