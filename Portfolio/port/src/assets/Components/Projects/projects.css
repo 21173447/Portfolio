@@ -1,29 +1,55 @@
 @keyframes blink-shadow {
-    0% { box-shadow: 0 4px 8px 10px rgba(44, 201, 195, 0.74); }
-    50% { box-shadow: 0 4px  8px 10px rgba(44, 201, 195, 0); }
-    100% { box-shadow: 0px 4px 8px 10px rgba(44, 201, 195, 0.74); }
+  0% {
+    box-shadow: 0 4px 8px 10px rgba(44, 201, 195, 0.74);
+  }
+  50% {
+    box-shadow: 0 4px 8px 10px rgba(44, 201, 195, 0);
+  }
+  100% {
+    box-shadow: 0px 4px 8px 10px rgba(44, 201, 195, 0.74);
+  }
 }
 
-.my_work{
-    display: flex;
-    justify-content: center;
-    padding-top: 11rem;
-    gap: 3rem;
-   
+.my_work {
+  display: flex;
+  justify-content: center;
+  padding-top: 11rem;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
-.my_work img{
-    width: 400px;
-    border-radius: 60px;
-    box-shadow: 0 4px 8px rgba(44, 201, 195, 0.74);
-    transition: transform 0.3s, box-shadow 0.3s, border-radius 0.3s; /* Add transitions for smooth effect  */
+.my_work img {
+  width: 400px;
+  border-radius: 60px;
+  box-shadow: 0 4px 8px rgba(44, 201, 195, 0.74);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s,
+    border-radius 0.3s; /* Add transitions for smooth effect  */
 }
 .my_work img:hover {
-    animation: blink-shadow 1s infinite; /*Am callng the  keyframess */
-    transform: scale(1.05);
-    rotate: 350deg;
-    border-radius: 100%;
- 
-  }
+  animation: blink-shadow 1s infinite; /*Am callng the  keyframess */
+  transform: scale(1.05);
+  rotate: 350deg;
+  border-radius: 100%;
+}
 
+
+/*=============Media quaries (MED devices)=============*/
+@media screen and (max-width: 1024px) {
+    .work {
+      max-width:300px;
+      height: auto;
+   
+    }
+  }
   
+
+
+/*=============Media quaries (SMALL devices)=============*/
+@media screen and (max-width: 600px) {
+  .work {
+    max-width: 150px;
+    height: auto;
+  }
+}

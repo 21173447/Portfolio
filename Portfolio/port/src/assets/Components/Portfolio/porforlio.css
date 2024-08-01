@@ -1,17 +1,12 @@
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-    
-}
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2.5rem; 
+   
+  }
 
 
-.portfolio__item {
-    background-color: var(--color-primary);
-    padding: 1rem  ;
-    border-radius: 1rem;
-    transition: var(--transition);
-}
+
 
 .portfolio__item:hover {
     border-color: var(--color-primary);
@@ -38,15 +33,26 @@ margin-left: 8.5rem;
 
 
 
+
+
+
+
+
+
 /*Making the website interactive*/
 
 /*=============Media quaries (MED devices)=============*/
+
+
 @media screen and (max-width : 1024px){
 
     .portfolio__container{
 
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2em;
+
+
+   max-width: 350px;
+   height: auto;
+
         
     }
   
@@ -65,4 +71,4 @@ margin-left: 8.5rem;
    
        }
    
-   
+       

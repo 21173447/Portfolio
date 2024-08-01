@@ -17,10 +17,10 @@ const Project = () => {
 
       <article className=' my_work'>
 
-        <img src={pic1} alt="" />
-        <img src={pic2} alt="" />
-        <img src={pic3} alt="" />
-        <img src={pic4} alt="" />
+        <img className='work' src={pic1} alt="" />
+        <img className='work'src={pic2} alt="" />
+        <img  className='work' src={pic3} alt="" />
+        <img  className='work'src={pic4} alt="" />
 
       </article>
 

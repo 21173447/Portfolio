@@ -1,127 +1,121 @@
 header {
-
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
-    background: url(../../pexels-marek-piwnicki-3907296-13922576.jpg)
-
-
+  height: 100vh;
+  padding-top: 4rem;
+  overflow: hidden;
+  background: url(../../pexels-marek-piwnicki-3907296-13922576.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .header__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    position:relative;
-    font-size: 2rem;
-    padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  font-size: 2rem;
+  padding-bottom: 10%;
 }
-span{
-    margin-right: 10rem;
-    margin-left: -2rem;
-
-
-
+span {
+  margin-right: 10rem;
+  margin-left: -2rem;
 }
-.text-light{
-    padding-right: 30rem;
-    
- }
+.text-light {
+  padding-right: 30rem;
+}
 /*====================CTAS==============*/
 
 .ctas {
-    position:absolute;
-    top: -5rem;
-    display: flex;
-    gap: 1.3rem;
-    padding: 800px;    
+  position: absolute;
+  top: -5rem;
+  display: flex;
+  gap: 1.3rem;
+  padding: 840px;
 }
 /*====================Socals==============*/
 .header__socials {
+  display: flex;
+  flex-direction: row;
 
-    display: flex;
-    flex-direction: row;
+  align-items: center;
+  position: absolute;
+  gap: 0.8rem;
+  left: 0;
+  bottom: 3rem;
+  font-size: 3rem;
 
-    align-items: center;
-    position: absolute;
-    gap: 0.8rem;
-    left: 0;
-    bottom: 3rem;
-    font-size: 3rem;
-
-
-    /*adding  the  vertical line */
+  /*adding  the  vertical line */
 }
 
 .header__socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
 
 /*====================Image==============*/
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 25rem 15rem  ;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem ;
-
-
-
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 25rem 15rem;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem;
 }
 
 .pic {
-
-    width: 18rem;
-    height:56rem;
-    overflow: hidden;
-    margin-left: 3rem;
-     border-radius: 12rem 12rem 0 0;
+  width: 18rem;
+  height: 56rem;
+  overflow: hidden;
+  margin-left: 3rem;
+  border-radius: 12rem 12rem 0 0;
 }
-
 
 /*=================SCROLL DOWN=================*/
 /*scroll  down  text*/
-.scroll_down{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem ;
-    border-bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  border-bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /*Making the website interactive*/
 
 /*=============Media quaries (MED devices)=============*/
-@media screen and (max-width : 1024px){
- header{
+@media screen and (max-width: 1024px) {
+  header {
     height: 68vh;
- }
-
+  }
 }
 
+
 /*=============Media quaries (SMALL devices)=============*/
-@media screen and (max-width : 600px){
-    header{
-        height: 100vh;
-     }
-    .header__socials,.scroll_down{
-display: none;
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll_down {
+    display: none;
+  }
 
+  .name__sec {
+    display: none;
+  }
 
-    }
+  .text-light{
 
+    display: none;
+  }
+  
 }
